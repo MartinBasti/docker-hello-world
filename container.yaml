@@ -1,3 +1,9 @@
 ---
-platforms: wrong
+#platforms: wrong
+
+flatpak:
+
+compose:
+
+autorebuild:
 
