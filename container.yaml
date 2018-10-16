@@ -3,7 +3,7 @@
 
 flatpak:
 
-compose:
+compose: not_an_object
 
 autorebuild:
 
