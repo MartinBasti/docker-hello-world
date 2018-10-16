@@ -1,9 +1,4 @@
 ---
-#platforms: wrong
+platforms: wrong
 
-flatpak:
-
-compose: not_an_object
-
-autorebuild:
 
