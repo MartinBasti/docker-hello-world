@@ -1,4 +1,5 @@
 ---
-platforms: wrong
+platforms:
+  only: x86_64
 
 
