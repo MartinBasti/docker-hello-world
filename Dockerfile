@@ -1,4 +1,4 @@
-FROM fedora:latest
+FROM scratch 
 
 LABEL "com.redhat.component"="docker-hello-world" \
       "name"="mbasti/docker-hello-world" \
