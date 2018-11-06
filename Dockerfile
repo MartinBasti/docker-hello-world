@@ -1,4 +1,4 @@
-FROM nonexistent:latest
+FROM fedora:1234567890
 
 LABEL "com.redhat.component"="docker-hello-world" \
       "name"="mbasti/docker-hello-world" \
