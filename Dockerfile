@@ -1,8 +1,5 @@
-FROM fedora:latest
-
-LABEL "com.redhat.component"="docker-hello-world" \
-      "name"="lucarval/docker-hello-world" \
-      "version"="1.0"
-
-ENV x=y
+FROM fedora:latest as builder
 RUN uname -a && env
+
+FROM scratch
+COPY --from=builder /etc/fedora-release /release
