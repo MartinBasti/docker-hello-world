@@ -1,5 +1,4 @@
 FROM fedora:latest as builder
-RUN uname -a && env
 
 FROM fedora:latest
 LABEL "com.redhat.component"="docker-hello-world" \
