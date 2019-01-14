@@ -1,2 +1,2 @@
 ---
-image_build_method: imagebuilder
+image_build_method: buildah
