@@ -6,3 +6,4 @@ LABEL "com.redhat.component"="docker-hello-world" \
 
 ENV x=y
 RUN uname -a && env
+RUN sleep 1200
